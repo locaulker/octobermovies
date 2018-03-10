@@ -1,0 +1,11 @@
+{
+  "name": "octobermovies",
+  "version": "1.0.0",
+  "description": "OctoberCMS with Laravel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lawrence O. Caulker",
+  "license": "ISC"
+}
