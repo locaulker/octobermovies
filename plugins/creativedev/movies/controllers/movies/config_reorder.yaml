@@ -1,0 +1,5 @@
+title: Movies
+modelClass: Creativedev\Movies\Models\Movie
+nameFrom: movie
+toolbar:
+    buttons: reorder_toolbar

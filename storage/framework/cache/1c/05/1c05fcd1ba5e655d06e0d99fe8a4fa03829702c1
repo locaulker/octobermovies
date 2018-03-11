@@ -1,4 +1,4 @@
-1520704918a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1110:"description = "Default layout"
+1520730865a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:995:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -11,11 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="generator" content="OctoberCMS">
 		<link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
-    <link href="{{ [
-      'assets/css/bootstrap.css',
-      'assets/css/style.css'
-      ]|theme }}" rel="stylesheet">
-      {% styles %}
+		{% styles %}
+		<link href="{{ 'assets/compiled/css/style.css'|theme }}" rel="stylesheet">
 	</head>
 	<body>
 
@@ -35,17 +32,13 @@
 		</footer>
 
 		<!-- Scripts -->
-    <script src="{{ [
-      'assets/js/jquery.js',
-      'assets/js/bootstrap.js',
-      'assets/js/app.js'
-      ] |theme }}"></script>
+    <script src="{{ 'assets/compiled/js/all.js'|theme }}"></script>
       {% framework extras %}
       {% scripts %}
 
 	</body>
-</html>
-";s:5:"mtime";i:1520703532;s:6:"markup";s:1075:"<!DOCTYPE html>
+</html> 
+";s:5:"mtime";i:1520720753;s:6:"markup";s:959:"<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -56,11 +49,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="generator" content="OctoberCMS">
 		<link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
-    <link href="{{ [
-      'assets/css/bootstrap.css',
-      'assets/css/style.css'
-      ]|theme }}" rel="stylesheet">
-      {% styles %}
+		{% styles %}
+		<link href="{{ 'assets/compiled/css/style.css'|theme }}" rel="stylesheet">
 	</head>
 	<body>
 
@@ -80,11 +70,7 @@
 		</footer>
 
 		<!-- Scripts -->
-    <script src="{{ [
-      'assets/js/jquery.js',
-      'assets/js/bootstrap.js',
-      'assets/js/app.js'
-      ] |theme }}"></script>
+    <script src="{{ 'assets/compiled/js/all.js'|theme }}"></script>
       {% framework extras %}
       {% scripts %}
 

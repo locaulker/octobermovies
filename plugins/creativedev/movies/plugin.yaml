@@ -1,0 +1,11 @@
+plugin:
+    name: 'creativedev.movies::lang.plugin.name'
+    description: 'creativedev.movies::lang.plugin.description'
+    author: CreativeDev
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: creativedev/movies/movies
+        icon: icon-video-camera

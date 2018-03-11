@@ -16,7 +16,7 @@ class __TwigTemplate_60f985e3f849cd0aa0638967338e264f25eff936a7e7902c5b59dafee93
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<h1>This is our homepage</h1>";
+        echo "<h1>This is our homepage! Yeah!</h1>";
     }
 
     public function getTemplateName()
@@ -31,6 +31,6 @@ class __TwigTemplate_60f985e3f849cd0aa0638967338e264f25eff936a7e7902c5b59dafee93
 
     public function getSourceContext()
     {
-        return new Twig_Source("<h1>This is our homepage</h1>", "/Users/locaulker/Tutorials/octobercms-projects/octobermovies/themes/olympos/pages/homepage.htm", "");
+        return new Twig_Source("<h1>This is our homepage! Yeah!</h1>", "/Users/locaulker/Tutorials/octobercms-projects/octobermovies/themes/olympos/pages/homepage.htm", "");
     }
 }

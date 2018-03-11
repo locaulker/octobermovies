@@ -1,0 +1,11 @@
+name: Movies
+modelClass: Creativedev\Movies\Models\Movie
+form: $/creativedev/movies/models/movie/fields.yaml
+defaultRedirect: creativedev/movies/movies
+create:
+    redirect: 'creativedev/movies/movies/update/:id'
+    redirectClose: creativedev/movies/movies
+update:
+    redirect: creativedev/movies/movies
+    redirectClose: creativedev/movies/movies
+preview: {  }
