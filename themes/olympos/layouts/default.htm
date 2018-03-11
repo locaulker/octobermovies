@@ -18,17 +18,17 @@ description = "Default layout"
 
 		<!-- Header -->
 		<header id="layout-header">
-			
+			{% partial "header" %}
 		</header>
 
 		<!-- Content -->
-		<section id="layout-content">
+		<section id="layout-content" class="container clearfix">
 			{% page %}
 		</section>
 
 		<!-- Footer -->
 		<footer id="layout-footer">
-			
+			{% partial "footer" %}
 		</footer>
 
 		<!-- Scripts -->

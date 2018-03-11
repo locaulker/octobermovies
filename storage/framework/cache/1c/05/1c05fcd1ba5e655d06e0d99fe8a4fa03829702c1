@@ -1,4 +1,4 @@
-1520730865a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:995:"description = "Default layout"
+1520736515a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1066:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -18,17 +18,17 @@
 
 		<!-- Header -->
 		<header id="layout-header">
-			
+			{% partial "header" %}
 		</header>
 
 		<!-- Content -->
-		<section id="layout-content">
+		<section id="layout-content" class="container clearfix">
 			{% page %}
 		</section>
 
 		<!-- Footer -->
 		<footer id="layout-footer">
-			
+			{% partial "footer" %}
 		</footer>
 
 		<!-- Scripts -->
@@ -38,7 +38,7 @@
 
 	</body>
 </html> 
-";s:5:"mtime";i:1520720753;s:6:"markup";s:959:"<!DOCTYPE html>
+";s:5:"mtime";i:1520735006;s:6:"markup";s:1030:"<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -56,17 +56,17 @@
 
 		<!-- Header -->
 		<header id="layout-header">
-			
+			{% partial "header" %}
 		</header>
 
 		<!-- Content -->
-		<section id="layout-content">
+		<section id="layout-content" class="container clearfix">
 			{% page %}
 		</section>
 
 		<!-- Footer -->
 		<footer id="layout-footer">
-			
+			{% partial "footer" %}
 		</footer>
 
 		<!-- Scripts -->

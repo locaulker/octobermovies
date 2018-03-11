@@ -52,11 +52,16 @@ class __TwigTemplate_fd06ba7b65caed4f152d82bfbc4a4b086e2c9490ba11ac5684ab40c9f3b
 
 \t\t<!-- Header -->
 \t\t<header id=\"layout-header\">
-\t\t\t
-\t\t</header>
+\t\t\t";
+        // line 19
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 20
+        echo "\t\t</header>
 
 \t\t<!-- Content -->
-\t\t<section id=\"layout-content\">
+\t\t<section id=\"layout-content\" class=\"container clearfix\">
 \t\t\t";
         // line 24
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
@@ -65,8 +70,13 @@ class __TwigTemplate_fd06ba7b65caed4f152d82bfbc4a4b086e2c9490ba11ac5684ab40c9f3b
 
 \t\t<!-- Footer -->
 \t\t<footer id=\"layout-footer\">
-\t\t\t
-\t\t</footer>
+\t\t\t";
+        // line 29
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 30
+        echo "\t\t</footer>
 
 \t\t<!-- Scripts -->
     <script src=\"";
@@ -103,7 +113,7 @@ class __TwigTemplate_fd06ba7b65caed4f152d82bfbc4a4b086e2c9490ba11ac5684ab40c9f3b
 
     public function getDebugInfo()
     {
-        return array (  89 => 36,  85 => 35,  78 => 34,  74 => 33,  64 => 25,  62 => 24,  47 => 13,  44 => 12,  40 => 11,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  99 => 36,  95 => 35,  88 => 34,  84 => 33,  79 => 30,  75 => 29,  69 => 25,  67 => 24,  61 => 20,  57 => 19,  47 => 13,  44 => 12,  40 => 11,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
     }
 
     public function getSourceContext()
@@ -126,17 +136,17 @@ class __TwigTemplate_fd06ba7b65caed4f152d82bfbc4a4b086e2c9490ba11ac5684ab40c9f3b
 
 \t\t<!-- Header -->
 \t\t<header id=\"layout-header\">
-\t\t\t
+\t\t\t{% partial \"header\" %}
 \t\t</header>
 
 \t\t<!-- Content -->
-\t\t<section id=\"layout-content\">
+\t\t<section id=\"layout-content\" class=\"container clearfix\">
 \t\t\t{% page %}
 \t\t</section>
 
 \t\t<!-- Footer -->
 \t\t<footer id=\"layout-footer\">
-\t\t\t
+\t\t\t{% partial \"footer\" %}
 \t\t</footer>
 
 \t\t<!-- Scripts -->
